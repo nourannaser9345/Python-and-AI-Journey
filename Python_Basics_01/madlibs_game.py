@@ -1,1 +1,11 @@
+objective1 = input("Please Enter an objective : ").strip()
+noun1 = input("Please Enter a Noun : ").strip()
+objective2 = input("Please Enter an objective : ").strip()
+verb1 = input("Please Enter a verb ending with 'ing'").strip()
+objective3 = input("Please Enter an objective : ").strip()
 
+print("** Mark Zuckerberg **")
+print(f"Today i went to a {objective1} Zoo. ")
+print(f"In an exhibit , I saw a {noun1} ")
+print(f"{noun1} was {objective2} and {verb1} .")
+print(f"I was {objective3} !")
